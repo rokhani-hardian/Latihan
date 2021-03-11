@@ -1,0 +1,56 @@
+.header{
+    background-color:black;
+    color:#fff;
+    
+    margin-right: 1px;
+    
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    list-style:none;
+    margin:10px;
+    
+    
+}
+li:hover{
+    color:blueviolet;
+    
+}
+.main{
+   
+    
+}
+.container{
+   display: flex; 
+   flex-direction: row;
+   margin-bottom: 20px;
+   width:400px;
+}
+.email{
+    margin-left: 35px;
+}
+.message{
+    display: flex; 
+    flex-direction: column;
+    margin-bottom: 10px;
+    width:400px;
+    
+}
+textarea{
+    height:150px;
+}
+
+button{
+    background-color: black;
+    color: #fff;
+} 
+    .btn{
+        display: flex;
+   justify-content: flex-end;
+   width:400px;
+    }
